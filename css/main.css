@@ -1,0 +1,51 @@
+p {
+    font-size: 125px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10%;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#add   {
+    background-color: lightgray;
+    width: 100px;
+    height: 80px;
+    border-radius: 15%;
+    padding: 5%;
+}
+
+#sub {
+    background-color: lightgray;
+    width: 100px;
+    height: 80px;
+    border-radius: 15%;
+    padding: 5%;
+}
+
+#add:hover {
+    background-color: white;
+    color: lightgray;
+}
+
+#sub:hover  {
+    background-color: white;
+    color: lightgray;
+}
+
+#user-input  {
+    padding: auto;
+    width: 200px;
+    height: 90x;
+    font-size: 80px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: thick;
+    text-align: center;
+    border-radius: 15%;
+}
+
